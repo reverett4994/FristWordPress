@@ -1,0 +1,85 @@
+
+html,body{
+  margin: 0;
+  font-family: 'Spectral SC', serif;
+
+}
+/**********************HEADER*****************************/
+
+.header{
+  width: 100%;
+  height: 100px;
+  background-image: url('brick3.jpg');
+  background-size: 75%;
+  font-family: 'Spectral SC', serif;
+}
+.logo{
+  font-size: 250%;
+  float: left;
+  vertical-align: middle;
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  margin-right: 20px;
+}
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+.header .nav{
+  padding-top: 22px;
+
+}
+.header .nav .menu-header-menu-links-container{
+
+}
+.header .nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+.header .nav li{
+  float: left;
+
+}
+.header .nav li a{
+  font-size: 110%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.header .nav li a:hover{
+  background-color: #111;
+}
+
+/**********************HEADER*****************************/
+
+
+/**********************POST*****************************/
+
+.post{
+  background-color: lightblue;
+}
+
+.menu_dropdown img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu_info{
+  font-family: 'Spectral SC', serif;
+  font-size: 120%;
+  padding: 10px 30px;
+}
+.menu_dropdown{
+  display: none;
+}
+/**********************POST*****************************/
