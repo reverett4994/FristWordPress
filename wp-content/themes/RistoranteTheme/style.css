@@ -2,7 +2,7 @@
 html,body{
   margin: 0;
   font-family: 'Spectral SC', serif;
-
+  background-color: #D4AC64;
 }
 /**********************HEADER*****************************/
 
@@ -12,6 +12,7 @@ html,body{
   background-image: url('brick3.jpg');
   background-size: 75%;
   font-family: 'Spectral SC', serif;
+  margin-bottom: 25px;
 }
 .logo{
   font-size: 250%;
@@ -62,11 +63,61 @@ html,body{
 
 /**********************HEADER*****************************/
 
+/**********************MENU*****************************/
+.half h2{
+  padding-left: 30px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.divider {
+	width:90%;
+	text-align:center;
+  font-size: 200%;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+  height: 30px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+.divider:before hr {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+
+/**********************MENU*****************************/
+
 
 /**********************POST*****************************/
 
 .post{
-  background-color: lightblue;
+  /*background-color: #bc2626; */
+  background-color: rgb(188, 38, 38,.3);
+  color: #F3EFE3;
 }
 
 .menu_dropdown img{
@@ -77,9 +128,45 @@ html,body{
 .menu_info{
   font-family: 'Spectral SC', serif;
   font-size: 120%;
-  padding: 10px 30px;
+  padding: 10px 0;
+}
+.menu_listing h2{
+  padding: 20px 10px 0 30px;
+  text-align: left;
+}
+.menu_listing h3{
+  padding: 0px 30px 20px 30px;
 }
 .menu_dropdown{
   display: none;
+  padding-left: 30px;
 }
 /**********************POST*****************************/
+
+
+
+
+/**********************CONTACT / FIND US*****************************/
+.contact_half{
+  background-color: rgb(188, 38, 38,.3);
+  width: 45%;
+  display: inline-block;
+  height: 500px;
+  margin: 10px;
+  font-size: 115%;
+  padding: 15px;
+}
+
+.contact_half h1{
+  text-align:  center;
+}
+
+.contact_half h3{
+  display: inline-block;
+  margin-top: 10px;
+}
+.contact_half p{
+  display: inline;
+}
+
+/**********************CONTACT / FIND US*****************************/

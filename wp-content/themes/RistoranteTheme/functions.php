@@ -13,7 +13,7 @@ function learning_wp_setup(){
   // width,height,cropping
   add_image_size('small-thumbnail', 180, 120, true);
   add_image_size('banner-image', 920, 210, array( 'left', 'top' ));
-  add_image_size('menu', 300, 250, array( 'left', 'top' ));
+  add_image_size('menu', 300, 250);
   //nav menus
   register_nav_menus(array(
     'header' => __('Header Menu'),
