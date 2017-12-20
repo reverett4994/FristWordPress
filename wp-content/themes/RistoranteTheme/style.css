@@ -112,7 +112,7 @@ html,body{
 /**********************MENU*****************************/
 
 
-/**********************POST*****************************/
+/**********************MENU POST*****************************/
 
 .post{
   /*background-color: #bc2626; */
@@ -141,7 +141,33 @@ html,body{
   display: none;
   padding-left: 30px;
 }
-/**********************POST*****************************/
+/**********************MENU POST*****************************/
+
+
+/**********************COUPON POST*****************************/
+
+.coupon_listing{
+background-color: blue;
+padding-bottom: 20px;
+}
+.coupon_listing h2{
+  padding: 20px 10px 0 30px;
+  text-align: left;
+  font-size: 250%;
+  margin-bottom: 0;
+}
+.coupon_listing h3{
+  margin-top: -5px;
+  font-size: 100%;
+}
+.coupon_listing p{
+  padding-left:30px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/**********************COUPON POST*****************************/
+
 
 
 
@@ -151,7 +177,7 @@ html,body{
   background-color: rgb(188, 38, 38,.3);
   width: 45%;
   display: inline-block;
-  height: 500px;
+  height: 650px;
   margin: 10px;
   font-size: 115%;
   padding: 15px;
@@ -165,8 +191,25 @@ html,body{
   display: inline-block;
   margin-top: 10px;
 }
+.contact_half h4{
+  display: inline-block;
+  margin-top: 5px;
+}
 .contact_half p{
   display: inline;
+}
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.contact_half iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /**********************CONTACT / FIND US*****************************/
