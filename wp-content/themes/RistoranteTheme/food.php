@@ -1,25 +1,15 @@
 <?php
   $custom_fields = get_post_custom($post_id);
   $my_custom_field = $custom_fields['price'];
+  $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID), 'thumbnail' );
 ?>
 
-<div class="post">
+  <div class="menu_listing"  style="background-image: url('<?php echo $url ?>');">
 
-  <div class="menu_listing">
-    <h2> <?php the_title() ?></h2>
-    <h3> Price: $<?php echo $my_custom_field['0']; ?> </h3>
+    <div class="overlay">
+      <p class="hover-title"><?php the_title() ?></p>
+      <p class="hover-text">Price: $<?php echo $my_custom_field['0']; ?></p>
+
+      <a class="custom-button" href="<?php the_permalink(); ?>">More Details</a>
+    </div>
   </div>
-
-  <div class="menu_dropdown">
-    <p class='mini-meta'>Updated at: <?php the_time('F j, Y') ?></p>
-    <?php the_post_thumbnail('menu') ?>
-    <div class='menu_info'><?php the_content(); ?></p>
-  </div>
-
-</div>
-
-</div>
-
-
-
-<?php

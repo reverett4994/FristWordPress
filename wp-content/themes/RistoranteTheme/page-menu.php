@@ -3,7 +3,7 @@ get_header();
 ?>
 <div class="site-content clearfix">
 
-  <div class="half">
+  <div class="menu_cat main">
     <div class="divider">
         <hr class="left"/>Main Dishes<hr class="right" />
     </div>
@@ -23,7 +23,7 @@ get_header();
     ?>
   </div>
 
-  <div class="half">
+  <div class="menu_cat sides">
     <div class="divider">
         <hr class="left"/>Sides<hr class="right" />
     </div>
@@ -43,7 +43,7 @@ get_header();
     ?>
   </div>
 
-  <div class="half">
+  <div class="menu_cat drinks">
 
     <div class="divider">
         <hr class="left"/>Drinks<hr class="right" />
@@ -65,6 +65,18 @@ get_header();
   </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -61,10 +61,20 @@ html,body{
   background-color: #111;
 }
 
+li.current-menu-item {
+background: #111;
+
+}
 /**********************HEADER*****************************/
 
 /**********************MENU*****************************/
-.half h2{
+
+.menu_cat{
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+}
+
+.menu_cat h2{
   padding-left: 30px;
   font-size: 150%;
   text-align: center;
@@ -112,13 +122,84 @@ html,body{
 /**********************MENU*****************************/
 
 
-/**********************MENU POST*****************************/
+/**********************MENU POST****************************
+.menu_listing{
+  width: 32.5%;
+  height: 500px;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: white;
+  background-repeat:no-repeat;
+  background-position: center center;
+   background-size:cover;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+*/
 
 .post{
   /*background-color: #bc2626; */
   background-color: rgb(188, 38, 38,.3);
   color: #F3EFE3;
 }
+
+
+.menu_cat .menu_listing{
+  margin-left: 5%;
+}
+.menu_listing{
+  width: 32.5%;
+  height: 500px;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: white;
+  background-repeat:no-repeat;
+  background-position: center center;
+   background-size:cover;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+/* MENU LISTING HOVER */
+  .overlay {
+    background:rgba(0,0,0,.75);
+    height: 85%;
+    opacity:0;
+    transition: opacity .25s ease-out;
+    text-align:center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .menu_listing:hover .overlay {
+    opacity:1;
+  }
+
+  .hover-title{
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    padding: 25px;
+    font-size:170%;
+  }
+
+  .hover-text {
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size: 110%;
+    padding: 15px;
+  }
+
+
+  .custom-button {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    height: 20px;
+    width: auto;
+    padding: 5px;
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+/* MENU LISTING HOVER */
 
 .menu_dropdown img{
   display: block;
@@ -140,6 +221,71 @@ html,body{
 .menu_dropdown{
   display: none;
   padding-left: 30px;
+}
+
+.sides .menu_listing{
+  width: 26.5%;
+  height: 400px;
+  margin-left: 2%;
+  margin-right: 5px;
+}
+
+.drinks .menu_listing{
+  width: 20.5%;
+  height: 300px;
+  margin-left: 2%;
+  margin-right: 5px;
+}
+.drinks p.hover-title{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 1206px) {
+    .main .divider hr {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .main .menu_listing {
+        height: 400px;
+    }
+    .sides .menu_listing{
+        height: 300px
+    }
+    .main p.hover-title{
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 140%;
+      padding: 15px;
+    }
+    .sides p.hover-title{
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 140%;
+      padding: 15px;
+    }
+    .drinks p.hover-title{
+      font-size: 120%;
+      padding: 5px;
+    }
+    .drinks p.hover-text{
+      padding: 5px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .main .menu_listing {
+        height: 300px;
+    }
+    .drinks .menu_listing{
+        height: 250px
+    }
+}
+@media only screen and (max-width: 635px) {
+    .divider hr {
+        width: 20%;
+    }
 }
 /**********************MENU POST*****************************/
 
@@ -213,3 +359,54 @@ padding-bottom: 20px;
 }
 
 /**********************CONTACT / FIND US*****************************/
+
+
+/**************************ABOUT US*****************************/
+
+.about_us{
+
+}
+.about_us img{
+  width: 45%;
+  height: 700px;
+}
+
+
+/**************************ABOUT US*****************************/
+
+
+
+/**********************  SINGLE FOOD  *****************************/
+
+.single_wrapper  {
+
+}
+.single_wrapper h1{
+  text-align: center;
+  font-size: 350%;
+}
+.single_wrapper h2{
+  text-align: center;
+  font-size: 200%;
+  margin-top: -30px;
+}
+.single_wrapper #text{
+  padding-left: 80px;
+  margin-top: 80px;
+  font-size: 130%;
+}
+.banner{
+  width: 95%;
+  height: 500px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/**********************  SINGLE FOOD  *****************************/
