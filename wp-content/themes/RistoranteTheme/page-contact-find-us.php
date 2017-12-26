@@ -1,5 +1,10 @@
 <?php get_header();?>
-
+<div class="subheader">
+  <div class="divider">
+      <hr class="left"/>Contact Us<hr class="right" />
+  </div>
+  <h4> <?php the_field('tag_line'); ?></h4>
+</div>
 <div class="contact_half left">
   <h1>Contact Us</h1>
   <h3>Phone: </h3><p>  (609) 555-4154</p><br>

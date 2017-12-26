@@ -2,17 +2,18 @@
 html,body{
   margin: 0;
   font-family: 'Spectral SC', serif;
-  background-color: #D4AC64;
+  background-color: #DFE2DB;
 }
 /**********************HEADER*****************************/
 
 .header{
   width: 100%;
   height: 100px;
-  background-image: url('brick3.jpg');
+  /* background-image: url('brick3.jpg'); */
+  background-color: #191919;
   background-size: 75%;
   font-family: 'Spectral SC', serif;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 .logo{
   font-size: 250%;
@@ -29,6 +30,11 @@ html,body{
   color: white;
   text-decoration: none;
 }
+.logo:hover a{
+  color: #FFF056;
+  text-decoration: none;
+}
+
 .header .nav{
   padding-top: 22px;
 
@@ -58,12 +64,15 @@ html,body{
 
 }
 .header .nav li a:hover{
-  background-color: #111;
+  background-color: #FFF056;
+  color: #191919;
 }
 
 li.current-menu-item {
-background: #111;
-
+background-color: #FFF056;
+}
+li.current-menu-item a {
+color: #191919 !important;
 }
 /**********************HEADER*****************************/
 
@@ -320,7 +329,7 @@ padding-bottom: 20px;
 
 /**********************CONTACT / FIND US*****************************/
 .contact_half{
-  background-color: rgb(188, 38, 38,.3);
+  background-color: #FFFFFF;
   width: 45%;
   display: inline-block;
   height: 650px;
@@ -361,14 +370,48 @@ padding-bottom: 20px;
 /**********************CONTACT / FIND US*****************************/
 
 
+
+/**************************SUBHEADER*****************************/
+
+.subheader{
+ margin-top: 10px;
+ background-color: #191919;
+ color: white;
+ text-align: center;
+ font-size: 150%;
+}
+
+.subheader h4{
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+.subheader .divider hr {
+ border-color: #FFF056;
+}
+.subheader .divider:before hr {
+ border-color: #FFF056;
+}
+
+
+/**************************SUBHEADER*****************************/
+
+
+
 /**************************ABOUT US*****************************/
 
 .about_us{
-
+  padding: 0 100px 100px 100px;
 }
-.about_us img{
-  width: 45%;
-  height: 700px;
+
+.about_us .image{
+  width: 95%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 45px 0 45px 0;
 }
 
 

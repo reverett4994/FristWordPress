@@ -2,8 +2,14 @@
 get_header();
 ?>
 <div class="site-content clearfix">
-
+  <div class="subheader">
+    <div class="divider">
+        <hr class="left"/>Menu<hr class="right" />
+    </div>
+    <h4> <?php the_field('tag_line'); ?></h4>
+  </div>
   <div class="menu_cat main">
+
     <div class="divider">
         <hr class="left"/>Main Dishes<hr class="right" />
     </div>
