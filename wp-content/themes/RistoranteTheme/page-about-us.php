@@ -16,12 +16,12 @@ $coupons=new WP_Query('cat=7&posts_per_page=200');
     </div>
     <div class="image"style="background-image: url('<?php the_field('picture_1'); ?>');"></div>
 
-    <?php the_field('text_part_1'); ?>
+    <p><?php the_field('text_part_1'); ?></p>
     <div class="divider">
         <hr class="left"/><?php the_field('part_2_title'); ?><hr class="right" />
     </div>
     <div class="image"style="background-image: url('<?php the_field('picture_2'); ?>');"></div>
-    <?php the_field('text_part_2'); ?>
+    <p><?php the_field('text_part_2'); ?></p>
   </div>
 </div>
 

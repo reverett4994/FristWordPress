@@ -1,6 +1,4 @@
-<?php
-get_header();
-?>
+<?php get_header();?>
 <div class="site-content clearfix">
   <div class="subheader">
     <div class="divider">
@@ -20,10 +18,8 @@ get_header();
       while ($foods -> have_posts()) : $foods -> the_post(); ?>
         <?php get_template_part('content',get_post_format()) ?>
       <?php endwhile;
-
     else :
       echo "</p>No Content</p>";
-
     endif;
     wp_reset_postdata();
     ?>
@@ -40,10 +36,8 @@ get_header();
       while ($foods -> have_posts()) : $foods -> the_post(); ?>
         <?php get_template_part('content',get_post_format()) ?>
       <?php endwhile;
-
     else :
       echo "</p>No Content</p>";
-
     endif;
     wp_reset_postdata();
     ?>
@@ -61,10 +55,8 @@ get_header();
       while ($foods -> have_posts()) : $foods -> the_post(); ?>
         <?php get_template_part('content',get_post_format()) ?>
       <?php endwhile;
-
     else :
       echo "</p>No Content</p>";
-
     endif;
     wp_reset_postdata();
     ?>
@@ -86,6 +78,4 @@ get_header();
 
 
 
-<?php get_footer();
-
-?>
+<?php get_footer();?>

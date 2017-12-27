@@ -302,10 +302,11 @@ color: #191919 !important;
 /**********************COUPON POST*****************************/
 
 .coupon_listing{
-background-color: blue;
+background-color: #191919;
 padding-bottom: 20px;
 }
 .coupon_listing h2{
+  color: #FFF056;
   padding: 20px 10px 0 30px;
   text-align: left;
   font-size: 250%;
@@ -316,9 +317,17 @@ padding-bottom: 20px;
   font-size: 100%;
 }
 .coupon_listing p{
+  display: inline-block;
   padding-left:30px;
   margin-top: 0;
   margin-bottom: 5px;
+}
+.code{
+  display: inline;
+  color: #FFF056;
+  font-weight: bold;
+  margin-left: 0px;
+  padding-left: 9px !important;
 }
 
 /**********************COUPON POST*****************************/
@@ -414,6 +423,9 @@ padding-bottom: 20px;
   margin: 45px 0 45px 0;
 }
 
+.about_us p{
+  line-height: 200%;
+}
 
 /**************************ABOUT US*****************************/
 

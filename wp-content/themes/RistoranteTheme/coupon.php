@@ -10,8 +10,8 @@
   <div class="coupon_listing">
     <h2> <?php the_title() ?></h2>
     <h3><?php  the_content(); ?> </h3>
-    <p>Code: <strong><?php echo $my_custom_field['0']; ?></strong></p>
-    <p class='mini-meta'>Added on: <?php the_time('F j, Y') ?></p>
+    <p>Code: <p class='code'><?php echo $my_custom_field['0']; ?></p></p><br>
+    <p class='mini-meta'>Added on: <?php the_time('F j, Y') ?></p><br>
     <p>Expiration Date: <?php echo $date->format('j M Y'); ?></p>
   </div>
 </div>

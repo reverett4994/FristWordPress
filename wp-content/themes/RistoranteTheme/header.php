@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
     <title> <?php bloginfo('name')?></title>
     <?php wp_head();?>
   </head>
