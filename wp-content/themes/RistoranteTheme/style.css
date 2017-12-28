@@ -465,3 +465,66 @@ padding-bottom: 20px;
 
 
 /**********************  SINGLE FOOD  *****************************/
+
+
+
+/**********************  HOME PAGE  *****************************/
+
+.item{
+  height: 500px;
+  background-color: white;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size:cover;
+  overflow: hidden;
+}
+
+.home_square{
+  width: 50%;
+  height: 550px;
+  background-color: #fff;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size:cover;
+  overflow: hidden;
+}
+.home_square p{
+  font-size: 110%;
+  padding: 75px 60px 75px 60px;
+}
+/**********************  HOME PAGE  *****************************/
+
+
+/**********************  FOOTER  *****************************/
+
+.footer{
+  height: 150px;
+  width: 100%;
+  margin-top: 100px;
+  display: block;
+  background-color: #191919;
+  float: left;
+  clear: both;
+  text-align: center;
+  font-size: 150%;
+  padding: 20px;
+}
+
+.footer ul{
+  list-style-type: none;
+}
+.footer li{
+  color: white;
+  padding: 20px;
+  display: inline-block;
+}
+.footer li a{
+  color: white;
+  text-decoration: none;
+}
+.footer li a:hover{
+  color: #FFF056;
+
+}
+
+/**********************  FOOTER  *****************************/

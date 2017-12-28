@@ -1,5 +1,16 @@
 </div>
+<div class="footer">
+  <div class="nav">
+    <?php
+      $args = array(
+        'theme_location' => 'footer'
+      )
+      ?>
+      <?php  wp_nav_menu($args);?>
+  </div>
+</div>
 <?php wp_footer();?>
+
 </body>
 </html>
 <script>
@@ -34,10 +45,10 @@ $(document).ready(function(){
                 items:1
             },
             600:{
-                items:3
+                items:2
             },
             1000:{
-                items:5
+                items:3
             }
         }
     })
