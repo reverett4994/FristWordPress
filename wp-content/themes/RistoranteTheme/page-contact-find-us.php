@@ -27,5 +27,16 @@
   <h1>Address</h1>
   <p id='center'>  5 Fake Road, Someplace NJ 08555</p>
 </div>
+<div class="breakpoint">
+
+</div>
+  <div class="mailer">
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
+        the_content();
+      endwhile; ?>
+    <?php endif; ?>
+  </div>
+
+
 
 <?php get_footer();?>

@@ -15,6 +15,25 @@ if ( in_category('Menu Item') ) {
           <p>
             <?php the_content(); ?>
           </p>
+
+        <?php comment_form(); ?>
+
+        <ol class="commentlist">
+        	<?php
+        		//Gather comments for a specific page/post
+        		$comments = get_comments(array(
+        			'post_id' => $post->ID,
+        			'status' => 'approve' //Change this to the type of comments to be displayed
+        		));
+
+        		//Display the list of comments
+        		wp_list_comments(array(
+        			'per_page' => 10, //Allow comment pagination
+        			'reverse_top_level' => false //Show the oldest comments at the top of the list
+        		), $comments);
+        	?>
+        </ol>
+
         </div>
         <?php
 

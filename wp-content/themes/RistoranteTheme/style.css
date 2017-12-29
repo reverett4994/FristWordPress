@@ -427,6 +427,18 @@ padding-bottom: 20px;
   line-height: 200%;
 }
 
+.breakpoint{
+  clear: both;
+  display: block;
+}
+.mailer{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  clear: both;
+}
+
 /**************************ABOUT US*****************************/
 
 
