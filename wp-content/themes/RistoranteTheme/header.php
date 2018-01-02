@@ -24,5 +24,11 @@
             )
             ?>
             <?php  wp_nav_menu($args);?>
+            <?php
+            $argss = array(
+              'theme_location' => 'header_dropdown'
+            )
+              ?>
+            <?php  wp_nav_menu($argss);?>
         </div>
       </div>

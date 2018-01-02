@@ -74,6 +74,42 @@ background-color: #FFF056;
 li.current-menu-item a {
 color: #191919 !important;
 }
+#menu-dropdown .sub-menu{
+  display: none;
+}
+
+.menu-dropdown{
+  width: 150px;
+  z-index: 99;
+}
+.menu-dropdown-container{
+  display: none;
+}
+.sub-menu {
+  width: 150px;
+  background-color: #191919;
+  position: absolute;
+  height: auto !important;
+  z-index: 99;
+}
+.sub-menu li {
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 1065px) {
+    .header .nav li a {
+       font-size: 100%;
+    }
+}
+@media only screen and (max-width: 1030px) {
+    #menu-header-menu-links{
+       display: none;
+    }
+    .menu-dropdown-container{
+      display: block;
+    }
+}
 /**********************HEADER*****************************/
 
 /**********************MENU*****************************/

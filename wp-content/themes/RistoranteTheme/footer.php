@@ -52,5 +52,12 @@ $(document).ready(function(){
             }
         }
     })
+  // Showing Dropdown for Header
+    $("#menu-item-115").hover(function(){
+      $(".sub-menu").css("display", "inline-block");
+    }, function(){
+      $(".sub-menu").css("display", "none");
+    });
+
 });
 </script>

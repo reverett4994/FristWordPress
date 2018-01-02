@@ -31,6 +31,7 @@ function learning_wp_setup(){
   //nav menus
   register_nav_menus(array(
     'header' => __('Header Menu'),
+    'header_dropdown' => __('Header Dropdown Menu'),
     'footer' => __('Footer Menu'),
   ));
 
