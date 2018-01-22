@@ -101,14 +101,41 @@ color: #191919 !important;
     .header .nav li a {
        font-size: 100%;
     }
+    .logo{
+      font-size: 200%;
+    }
 }
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 960px) {
     #menu-header-menu-links{
        display: none;
     }
     .menu-dropdown-container{
       display: block;
     }
+}
+@media only screen and (max-width: 500px) {
+    .header{
+      height: auto;
+    }
+     #menu-dropdown {
+      float: none;
+      clear: both
+    }
+    .logo{
+      display: block;
+      width: 100%;
+      height: 70px;
+    }
+}
+@media only screen and (max-width: 450px) {
+  .logo{
+    font-size: 150%;
+  }
+}
+@media only screen and (max-width: 305px) {
+  .logo{
+    font-size: 135%;
+  }
 }
 /**********************HEADER*****************************/
 
@@ -163,6 +190,18 @@ color: #191919 !important;
 	float:right;
 }
 
+@media only screen and (max-width: 1675px) {
+    .divider hr{
+       width: 30%;
+    }
+
+}
+@media only screen and (max-width: 1400px) {
+    .divider hr{
+       width: 0;
+    }
+
+}
 
 /**********************MENU*****************************/
 
@@ -327,11 +366,7 @@ color: #191919 !important;
         height: 250px
     }
 }
-@media only screen and (max-width: 635px) {
-    .divider hr {
-        width: 20%;
-    }
-}
+
 /**********************MENU POST*****************************/
 
 
@@ -539,6 +574,19 @@ padding-bottom: 20px;
 .home_square p{
   font-size: 110%;
   padding: 75px 60px 75px 60px;
+}
+@media only screen and (max-width: 1000px) {
+    .home_square {
+       width: 100%;
+       margin-bottom: 100px;
+       height: auto;
+       min-height: 550px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .home_square {
+       margin-bottom: 50px;
+    }
 }
 /**********************  HOME PAGE  *****************************/
 
